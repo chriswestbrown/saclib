@@ -1,0 +1,115 @@
+------------------------------------------------------------
+2.2.7 - 2021-03-01
+Changed
+* Version number bumped to 2.2.7.
+* Switched to git repo from bzr.
+* Now Saclib allows underscores in variable names (but not
+  as the first character).
+------------------------------------------------------------
+revno: 15
+committer: Chris Brown <wcbrown@usna.edu>
+branch nick: saclib2.2.6
+timestamp: Tue 2018-01-30 11:40:42 -0500
+message:
+  Increased saclib version number to 2.2.7.
+------------------------------------------------------------
+revno: 14
+committer: Chris Brown <wcbrown@usna.edu>
+branch nick: saclib2.2.6
+timestamp: Tue 2018-01-30 11:32:00 -0500
+message:
+  added documentation pdf's
+------------------------------------------------------------
+revno: 13
+committer: Chris Brown <wcbrown@usna.edu>
+branch nick: saclib2.2.6
+timestamp: Thu 2018-01-25 16:13:14 -0500
+message:
+  Added check in ARGSACLIB for +N values that are out of the range
+  [20000,1073741822].  Anything bigger than that is too big for Saclib
+  to handle because Word is limited to 32-bits. 
+------------------------------------------------------------
+revno: 12
+committer: Chris Brown <wcbrown@usna.edu>
+branch nick: saclib2.2.6
+timestamp: Wed 2017-03-15 13:27:00 -0400
+message:
+  Lots of misc cleanups
+------------------------------------------------------------
+revno: 11
+committer: Christopher W Brown <wcbrown@sheng>
+branch nick: saclib2.2.6
+timestamp: Sun 2014-02-09 19:23:09 -0500
+message:
+  Changed version number to Saclib 2.2.6.
+------------------------------------------------------------
+revno: 10
+committer: Christopher W Brown <wcbrown@sheng>
+branch nick: saclib2.2.5
+timestamp: Sun 2014-02-09 11:36:02 -0500
+message:
+  Made a large number of changes to improve portability, fix a few bugs, and silence some compiler error messages.  These came from Jerry James from RedHat, who was very kind to point out so many fixes.  Also, added under version control the Mac OS X 64 sysdep files, which have been distributed for a while, but somehow missing from version control.
+------------------------------------------------------------
+revno: 9
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib2.2.4
+timestamp: Thu 2010-04-22 11:03:35 -0400
+message:
+  Removed spurrious include of ucontext.h, which 64-bit macs don't like.
+------------------------------------------------------------
+revno: 8
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Wed 2010-04-21 13:31:57 -0400
+message:
+  Officially upped the version number of 2.2.4.
+------------------------------------------------------------
+revno: 7
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Wed 2010-04-21 13:26:53 -0400
+message:
+  Changed over all scripts to bash, and added mac OS X port.
+------------------------------------------------------------
+revno: 6
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Thu 2010-04-15 14:21:26 -0400
+message:
+  Fixed minor portability bug in FAIL.c
+------------------------------------------------------------
+revno: 5
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Thu 2010-04-15 13:15:01 -0400
+message:
+  Fixed a few bugs in the 32-bit version of the 64/32 code.
+------------------------------------------------------------
+revno: 4
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Thu 2010-04-15 12:46:34 -0400
+message:
+  This commit (saclib 2.2.3) finally includes a port to 64-bit linux.  The primary issue addressed in the port is the few places in which pointer values are stored in saclib list nodes.  This is now done sanely and portably.
+------------------------------------------------------------
+revno: 3
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Thu 2009-07-16 09:24:53 -0400
+message:
+  Minor changes to README.
+------------------------------------------------------------
+revno: 2 [merge]
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Thu 2009-07-16 09:15:45 -0400
+message:
+  Merged changes.
+------------------------------------------------------------
+revno: 1
+committer: Christopher Brown <wcbrown@usna.edu>
+branch nick: saclib
+timestamp: Wed 2009-07-15 16:41:43 -0400
+message:
+  Initial commit.
+------------------------------------------------------------
