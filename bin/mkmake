@@ -6,6 +6,8 @@
 # FUNCTION
 #   Creates the makefiles for SACLIB.
 
+mkdir -p $saclib/lib/objo
+mkdir -p $saclib/lib/objd
 
 MAKEFILE=$saclib/lib/objo/makefile
 
