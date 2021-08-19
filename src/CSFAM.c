@@ -16,7 +16,8 @@ Output
 #include "saclib.h"
 
 BDigit CSFAM(n,A)
-	BDigit n,*A;
+	BDigit n;
+	const BDigit *A;
 {
 	BDigit c,i;
 

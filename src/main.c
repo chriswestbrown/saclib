@@ -9,7 +9,7 @@ Inputs
 ======================================================================*/
 #include "saclib.h"
 
-extern int sacMain  P__((int ac, char **av));
+extern int sacMain  P__((int ac, char **av)) __weak;
 
 
 void main(argc, argv)

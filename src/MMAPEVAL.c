@@ -14,7 +14,8 @@ Output
 #include "saclib.h"
 
 Word MMAPEVAL(m,A,s)
-       Word m,*A,s;
+       Word m,s;
+       const Word *A;
 {
        Word n,e,i;
 

@@ -14,7 +14,8 @@ Output
 #include "saclib.h"
 
 Word IHDREM(A,n,b)
-       Word *A,n,b;
+       const Word *A;
+       Word n,b;
 {
        Word a0,a1,np,r;
 
