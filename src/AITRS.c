@@ -16,7 +16,8 @@ Output
 #include "saclib.h"
 
 BDigit AITRS(A,n,k)
-	BDigit *A,n,k;
+	const BDigit *A;
+	BDigit n,k;
 {
 	BDigit a,b,c,d,h,p;;
 

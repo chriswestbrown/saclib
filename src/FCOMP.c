@@ -12,7 +12,7 @@ Output
 #include "saclib.h"
 
 BDigit FCOMP(I,J)
-	BDigit *I,*J;
+	const BDigit *I,*J;
 {
 	BDigit i,p,s;
 

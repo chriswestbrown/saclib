@@ -15,7 +15,7 @@ Outputs
 #include "saclib.h"
 
 BDigit SISIGN(I)
-       Word *I;
+       const Word *I;
 {
        BDigit p,s,s1,s2;
 

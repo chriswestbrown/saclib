@@ -12,7 +12,7 @@ Output
 #include "saclib.h"
 
 BDigit AICOMP(A,B)
-	BDigit *A,*B;
+	const BDigit *A,*B;
 {
 	BDigit d,i,m,n,s,t,u;
 

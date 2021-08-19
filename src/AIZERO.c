@@ -12,7 +12,7 @@ Output
 #include "saclib.h"
 
 BDigit AIZERO(A)
-	BDigit *A;
+	const BDigit *A;
 {
 	BDigit t;
 

@@ -13,7 +13,7 @@ Output
 #include "saclib.h"
 
 BDigit SIPSIZE(A)
-	BDigit *A;
+	const BDigit *A;
 {
 	BDigit n,p,q1,q2,S;
 

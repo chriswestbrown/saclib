@@ -18,7 +18,7 @@ Output
 
 Word HIPSV(n,A)
 	BDigit n;
-	interval *A;
+	const interval *A;
 {
 	BDigit h,i,k,s,t,v;
 

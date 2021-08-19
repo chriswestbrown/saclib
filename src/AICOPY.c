@@ -13,8 +13,8 @@ Effect
 #include "saclib.h"
 
 void AICOPY(A,B)
-
-	BDigit *A,*B;
+	const BDigit *A;
+	BDigit *B;
 {
 	BDigit i,n;
 

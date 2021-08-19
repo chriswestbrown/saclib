@@ -35,7 +35,6 @@ typedef int     Word;
 #define LARGE 2000
 #define SMALL 50
 
-
 /* Does the compiler support function prototypes? */
 #ifdef __STDC__
 #define P__(A)  A
@@ -52,6 +51,33 @@ typedef int     Word;
 # endif
 #endif
 
+/* Indicate that an ELF symbol is weak. */
+#ifndef __weak
+# ifdef __GNUC__
+#  define __weak __attribute__ ((weak))
+# else
+#  define __weak
+# endif
+#endif
+
+/* Mark functions that have no side effects and read only their parameters. */
+#ifndef __constfunc
+# ifdef __GNUC__
+#  define __constfunc __attribute__ ((const))
+# else
+#  define __constfunc
+# endif
+#endif
+
+/* Mark functions that have no side effects and read only their parameters and
+ * global variables. */
+#ifndef __pure
+# ifdef __GNUC__
+#  define __pure __attribute__ ((pure))
+# else
+#  define __pure
+# endif
+#endif
 
 
 #endif
